@@ -36,20 +36,42 @@ class premiumAccount extends Account{
     }
 }
 
-class coffeeShop{
+class CoffeeShop{
     buyCoins(amount, account){
         //buying coins in a currency
     }
-    async orderCoffee(coffee){
-        //return coffeeType
-        //add coin bonus based on the account type
+    
+}
+async function orderCoffee () {
+    try{
+        let res = await fetch("coffee.json");
+        let info = await res.json();
+
+        let data = info.coffee;
+        console.log(data);
+        data.forEach((coffee) => {
+let div = document.createElement("div");
+div.className = "coffee"
+div.innerHTML = `
+<img src="${coffee.cup}" alt="">
+
+        });
     }
+    `
+
+    catch(error){
+        console.log(error);
+    }
+    //return coffeeType
+    //add coin bonus based on the account type
 }
 const billingMaria = {
     creditCardNumber : 00000001,
     expiryDate : 31/12/2022,
 };
-let myAccount = new Account(11, maaghia, Maria, corso, billingMaria, 100);
+/* let myAccount = new Account(11, maaghia, Maria, corso, billingMaria, 100);
 console.log(myAccount.coffeeCoins)
 myAccount.addCoins(20, myAccount)
-console.log(myAccount.coffeeCoins)
+console.log(myAccount.coffeeCoins) */
+
+let client = new CoffeeShop()

@@ -1,0 +1,41 @@
+{
+    "coffee" :
+    [
+        {
+            "type" : "black",
+            "price": 2,
+            "bonus": 20,
+            "strengthShots": "single"
+        },
+        {
+            "type" : "cappuccino",
+            "price": 3.00,
+            "bonus": 20,
+            "strengthShots": "single" 
+        },
+        {
+            "type" : "espresso",
+            "price": 1.50,
+            "bonus": 15,
+            "strengthShots": "triple"
+        },
+        {
+            "type" : "latte",
+            "price": 5.0,
+            "bonus": 50,
+            "strengthShots": "single"
+        },
+        {
+            "type" : "arabica",
+            "price": 8.0,
+            "bonus": 80,
+            "strengthShots": "single"
+        },
+        {
+            "type" : "organic",
+            "price": 3.50,
+            "bonus": 15,
+            "strengthShots": "double"
+        }   
+    ]
+}
