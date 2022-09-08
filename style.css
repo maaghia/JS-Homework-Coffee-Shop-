@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+main > div {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    border: none;
+    width: 5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .3rem 0;
+    color: white;
+    background-color: rgb(185, 110, 255);
+    cursor: pointer;
+    transition: transform 200ms ease-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#users-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    display: flex;
+    gap: 2rem;
+    border: 1px solid #888;
+    border-radius: 8px;
+    border-left: .6rem solid green;
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+}
+
+.user div {
+    display: flex;
+    flex-direction: column;
+}
+
+.type {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.price-bonus {
+    color: #555;
+}
+
+.coffee img {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+/* .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+.buttons button {
+    height: max-content;
+} */

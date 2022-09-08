@@ -1,0 +1,41 @@
+{
+    "coffee" :
+    [
+        {
+            "type" : "black",
+            "price": 2,
+            "bonus": 20,
+            "image": "images\black.jpg"
+        },
+        {
+            "type" : "cappuccino",
+            "price": 3.00,
+            "bonus": 20,
+            "image": "cappuccino.jpg"
+        },
+        {
+            "type" : "espresso",
+            "price": 1.50,
+            "bonus": 15,
+            "image": "espresso.jpg"
+        },
+        {
+            "type" : "latte",
+            "price": 5.0,
+            "bonus": 50,
+            "image": "latte.jpg"
+        },
+        {
+            "type" : "mocha",
+            "price": 8.0,
+            "bonus": 80,
+            "image": "mocha.jpg"
+        },
+        {
+            "type" : "americano",
+            "price": 3.50,
+            "bonus": 15,
+            "image": "americano.jpg"
+        }   
+    ]
+}
